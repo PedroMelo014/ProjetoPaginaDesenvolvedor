@@ -1,0 +1,207 @@
+
+ 
+
+.headerone{ 
+  display: grid;
+
+  justify-items: center;
+  text-align: center;
+
+  margin: 120px 183px 163px 163px;
+
+   img{ 
+    padding: 56px;
+  }
+
+  p{ 
+    padding: 8px;
+    color: var(--gray-300)
+  };
+  h1{ 
+    color: var(--gray-100);
+  }
+}
+ 
+
+
+
+
+.mainone{ 
+  div:nth-child(1){ 
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: var(--gray-100);
+      
+  
+    
+    
+  }
+
+ 
+
+ 
+}
+
+
+.one-teg{ 
+  
+
+  /* Tag */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 8px;
+
+width: 114px;
+height: 40px;
+
+/* Base/gray-400 */
+background: #292C34;
+border-radius: 999px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
+
+/* Segunda Pagina */ 
+
+.twoheader{
+text-align: center;
+
+margin-top: 255px;
+
+
+}
+
+.trabalho{ 
+  color: var(--red);
+  font: var(--Title-sm);
+}
+
+.destaque{ 
+  color: var(--gray-100);
+  font: var(--Title-md);
+}
+
+
+
+
+#maintwo{
+  margin-top: 56px; 
+  display: grid;
+ justify-content:center;
+  grid-template-areas: 
+  "A B C"
+  "D E F"
+  ;
+
+ gap: 20px;
+
+   h3{ 
+    font: var(--Title-sm);
+    color:var(--gray-100);
+    margin-bottom: 8px;
+    margin-left: 12px;
+    
+  }
+
+  p{
+    color: var(--gray-200);
+    margin-left: 12px;
+    
+  };
+
+}
+
+
+#A{ 
+ 
+  grid-area: A;
+  height: 280px;
+  width: 330px;
+  background-color: var(--gray-400) ;
+  border-radius: 12px ;
+
+  
+}
+
+#B{ 
+    grid-area: B;
+  height: 280px;
+  width: 330px;
+  background-color: var(--gray-400) ;
+  border-radius: 12px ;
+
+}
+
+#C{ 
+    grid-area: C;
+  height: 280px;
+  width: 330px;
+  background-color: var(--gray-400) ;
+  border-radius: 12px ;
+}
+
+
+#D{ 
+    grid-area: D;
+  height: 280px;
+  width: 330px;
+  background-color: var(--gray-400) ;
+  border-radius: 12px ;
+}
+
+#E{ 
+    grid-area: E;
+  height: 280px;
+  width: 330px;
+  background-color: var(--gray-400) ;
+  border-radius: 12px ;
+}
+
+#F{ 
+    grid-area: F;
+  height: 280px;
+  width: 330px;
+  background-color: var(--gray-400) ;
+  border-radius: 12px ;
+}
+
+
+.projetos{ 
+  img{ 
+    width: 306px;
+    height: 156px;
+    border-radius: 8px;
+  
+    margin: 12px 12px 20px 12px;
+  }
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
