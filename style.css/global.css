@@ -39,7 +39,7 @@
 body{ 
  font-family: var(--font-one);
  background-image: url(../assets//Background_Intro.png);
-  background-size: cover;
+  background-size: contain;
 }
 
 
